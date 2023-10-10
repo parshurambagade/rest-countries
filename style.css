@@ -1,0 +1,10 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.card-width {
+    width: 30vw;
+    height: 30vh;
+  }
