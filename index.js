@@ -33,14 +33,7 @@ fetch("https://restcountries.com/v3.1/all")
   
     
 
-    // COUNTRY PAGE JS
-const urlParams = new URLSearchParams(window.location.search);
-const countryName = urlParams.get("name");
-console.log(countryName);
-
-fetch(`https://restcountries.com/v3.1/name/{countryName}?fullText=true`).then(res => res.json()).then(data => {
-    console.log(data);
-}).catch(err => console.log(err));
+    
 
 
 
